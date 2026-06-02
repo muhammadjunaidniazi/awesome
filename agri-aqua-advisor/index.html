@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Agri Aqua Advisor</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="hero">
+    <nav class="nav">
+      <div class="brand"><span class="leaf">✦</span> Agri Aqua Advisor</div>
+      <a href="#planner" class="nav-btn">Open Planner</a>
+    </nav>
+    <section class="hero-grid">
+      <div>
+        <p class="eyebrow">CS Subject Project • Smart Farming</p>
+        <h1>Plan irrigation, crop care, and field notes in one clean dashboard.</h1>
+        <p class="hero-text">A modern offline-first agriculture assistant built with HTML, CSS, and JavaScript. No database, no API key, and no paid service required.</p>
+        <div class="hero-actions">
+          <a class="primary" href="#planner">Calculate Water Plan</a>
+          <a class="secondary" href="#records">View Saved Records</a>
+        </div>
+      </div>
+      <div class="glass-card status-card">
+        <span class="status-dot"></span>
+        <h2 id="todayTitle">Today Field Status</h2>
+        <p id="todaySummary">Enter your crop details to generate a smart recommendation.</p>
+        <div class="mini-stats">
+          <div><strong id="statCrop">--</strong><small>Crop</small></div>
+          <div><strong id="statWater">--</strong><small>Water Need</small></div>
+          <div><strong id="statRisk">--</strong><small>Risk</small></div>
+        </div>
+      </div>
+    </section>
+  </header>
+
+  <main>
+    <section id="planner" class="panel planner">
+      <div class="section-head">
+        <p class="eyebrow">Smart Planner</p>
+        <h2>Irrigation Recommendation</h2>
+      </div>
+      <form id="advisorForm" class="form-grid">
+        <label>Crop
+          <select id="crop" required>
+            <option value="Wheat">Wheat</option>
+            <option value="Cotton">Cotton</option>
+            <option value="Rice">Rice</option>
+            <option value="Sugarcane">Sugarcane</option>
+            <option value="Maize">Maize</option>
+            <option value="Gram">Gram</option>
+          </select>
+        </label>
+        <label>Soil Type
+          <select id="soil" required>
+            <option value="Clay">Clay</option>
+            <option value="Loam">Loam</option>
+            <option value="Silt">Silt</option>
+            <option value="Sand">Sand</option>
+          </select>
+        </label>
+        <label>Moisture %
+          <input id="moisture" type="number" min="1" max="100" value="35" required />
+        </label>
+        <label>Temperature °C
+          <input id="temp" type="number" min="0" max="60" value="32" required />
+        </label>
+        <label>Field Area Acres
+          <input id="area" type="number" min="0.1" step="0.1" value="1" required />
+        </label>
+        <label>Farmer / Field Name
+          <input id="field" type="text" placeholder="Example: Layyah Field A" required />
+        </label>
+        <button type="submit" class="primary form-btn">Generate Plan</button>
+      </form>
+    </section>
+
+    <section class="result-grid">
+      <article class="panel recommendation">
+        <div class="section-head">
+          <p class="eyebrow">Output</p>
+          <h2>Recommended Action</h2>
+        </div>
+        <div id="recommendationBox" class="empty-box">No plan generated yet.</div>
+      </article>
+      <article class="panel chart-panel">
+        <div class="section-head">
+          <p class="eyebrow">Visual</p>
+          <h2>Moisture Chart</h2>
+        </div>
+        <canvas id="moistureChart" width="500" height="260"></canvas>
+      </article>
+    </section>
+
+    <section id="records" class="panel records">
+      <div class="records-top">
+        <div>
+          <p class="eyebrow">Local Storage</p>
+          <h2>Saved Field Records</h2>
+        </div>
+        <button id="clearBtn" class="danger">Clear Records</button>
+      </div>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Date</th><th>Field</th><th>Crop</th><th>Soil</th><th>Moisture</th><th>Action</th></tr></thead>
+          <tbody id="recordTable"></tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Made for Computer Science Project • Muhammad Junaid Niazi</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
