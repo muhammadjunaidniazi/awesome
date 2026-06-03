@@ -1,0 +1,23 @@
+<svg width="1280" height="520" viewBox="0 0 1280 520" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs><linearGradient id="bg2" x1="0" y1="0" x2="1280" y2="520"><stop stop-color="#EEF2FF"/><stop offset="1" stop-color="#ECFEFF"/></linearGradient></defs>
+  <rect width="1280" height="520" rx="26" fill="url(#bg2)"/>
+  <text x="60" y="72" font-family="Arial" font-size="34" font-weight="700" fill="#0F172A">100-Day Learning Roadmap</text>
+  <text x="60" y="106" font-family="Arial" font-size="18" fill="#475569">A visual overview of the major learning phases in this course.</text>
+  <line x1="100" y1="275" x2="1180" y2="275" stroke="#94A3B8" stroke-width="8" stroke-linecap="round"/>
+  <g font-family="Arial" font-weight="700" font-size="18">
+    <circle cx="140" cy="275" r="42" fill="#2563EB"/><text x="111" y="281" fill="white">1-10</text>
+    <circle cx="340" cy="275" r="42" fill="#0EA5E9"/><text x="306" y="281" fill="white">11-25</text>
+    <circle cx="540" cy="275" r="42" fill="#10B981"/><text x="503" y="281" fill="white">26-45</text>
+    <circle cx="740" cy="275" r="42" fill="#F59E0B"/><text x="703" y="281" fill="white">46-65</text>
+    <circle cx="940" cy="275" r="42" fill="#EF4444"/><text x="904" y="281" fill="white">66-80</text>
+    <circle cx="1140" cy="275" r="42" fill="#8B5CF6"/><text x="1094" y="281" fill="white">81-100</text>
+  </g>
+  <g font-family="Arial" fill="#0F172A">
+    <rect x="82" y="338" width="116" height="100" rx="16" fill="#DBEAFE"/><text x="103" y="370" font-size="18" font-weight="700">Foundation</text><text x="102" y="396" font-size="15">Python</text><text x="102" y="418" font-size="15">NumPy</text>
+    <rect x="282" y="338" width="116" height="100" rx="16" fill="#E0F2FE"/><text x="315" y="370" font-size="18" font-weight="700">Regression</text><text x="301" y="396" font-size="15">Prediction</text><text x="305" y="418" font-size="15">Metrics</text>
+    <rect x="482" y="338" width="116" height="100" rx="16" fill="#D1FAE5"/><text x="503" y="370" font-size="18" font-weight="700">Classification</text><text x="504" y="396" font-size="15">Labels</text><text x="499" y="418" font-size="15">Accuracy</text>
+    <rect x="682" y="338" width="116" height="100" rx="16" fill="#FEF3C7"/><text x="707" y="370" font-size="18" font-weight="700">Tree Models</text><text x="702" y="396" font-size="15">Decision Tree</text><text x="703" y="418" font-size="15">Forest</text>
+    <rect x="882" y="338" width="116" height="100" rx="16" fill="#FEE2E2"/><text x="903" y="370" font-size="18" font-weight="700">Unsupervised</text><text x="917" y="396" font-size="15">K-Means</text><text x="934" y="418" font-size="15">PCA</text>
+    <rect x="1082" y="338" width="116" height="100" rx="16" fill="#EDE9FE"/><text x="1094" y="370" font-size="18" font-weight="700">Projects</text><text x="1107" y="396" font-size="15">GitHub</text><text x="1105" y="418" font-size="15">Portfolio</text>
+  </g>
+</svg>
