@@ -1,0 +1,16 @@
+<svg width="1280" height="520" viewBox="0 0 1280 520" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs><linearGradient id="bg3" x1="0" y1="0" x2="1280" y2="520"><stop stop-color="#F8FAFC"/><stop offset="1" stop-color="#EFF6FF"/></linearGradient></defs>
+  <rect width="1280" height="520" rx="26" fill="url(#bg3)"/>
+  <text x="60" y="72" font-family="Arial" font-size="34" font-weight="700" fill="#0F172A">Portfolio Project Ideas</text>
+  <text x="60" y="106" font-family="Arial" font-size="18" fill="#475569">Use these colorful project cards to plan your Machine Learning portfolio.</text>
+  <g font-family="Arial" fill="#0F172A">
+    <rect x="70" y="150" width="250" height="130" rx="22" fill="#DBEAFE"/><text x="96" y="200" font-size="22" font-weight="700">Student Score</text><text x="96" y="232" font-size="16">Prediction using regression</text>
+    <rect x="350" y="150" width="250" height="130" rx="22" fill="#DCFCE7"/><text x="384" y="200" font-size="22" font-weight="700">Customer Purchase</text><text x="384" y="232" font-size="16">Classification project</text>
+    <rect x="630" y="150" width="250" height="130" rx="22" fill="#FEE2E2"/><text x="675" y="200" font-size="22" font-weight="700">Diabetes Risk</text><text x="675" y="232" font-size="16">Health prediction task</text>
+    <rect x="910" y="150" width="300" height="130" rx="22" fill="#EDE9FE"/><text x="954" y="200" font-size="22" font-weight="700">Customer Segmentation</text><text x="954" y="232" font-size="16">Clustering and grouping</text>
+    <rect x="70" y="320" width="250" height="130" rx="22" fill="#FCE7F3"/><text x="99" y="370" font-size="22" font-weight="700">House Price</text><text x="99" y="402" font-size="16">Continuous value prediction</text>
+    <rect x="350" y="320" width="250" height="130" rx="22" fill="#FEF3C7"/><text x="381" y="370" font-size="22" font-weight="700">Loan Approval</text><text x="381" y="402" font-size="16">Classification decision model</text>
+    <rect x="630" y="320" width="250" height="130" rx="22" fill="#CCFBF1"/><text x="676" y="370" font-size="22" font-weight="700">Spam Detection</text><text x="676" y="402" font-size="16">Text classification basics</text>
+    <rect x="910" y="320" width="300" height="130" rx="22" fill="#E0E7FF"/><text x="964" y="370" font-size="22" font-weight="700">End-to-End Report</text><text x="964" y="402" font-size="16">Full project presentation</text>
+  </g>
+</svg>
