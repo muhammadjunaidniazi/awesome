@@ -1,0 +1,29 @@
+<svg width="1280" height="420" viewBox="0 0 1280 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="420" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0F172A"/><stop offset="0.42" stop-color="#2563EB"/><stop offset="1" stop-color="#06B6D4"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#FFFFFF" stop-opacity="0.24"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0.08"/></linearGradient>
+  </defs>
+  <rect width="1280" height="420" rx="28" fill="url(#bg)"/>
+  <circle cx="1090" cy="82" r="130" fill="#ffffff" fill-opacity="0.08"/>
+  <circle cx="1160" cy="330" r="90" fill="#ffffff" fill-opacity="0.08"/>
+  <circle cx="160" cy="80" r="120" fill="#ffffff" fill-opacity="0.08"/>
+  <rect x="64" y="70" width="660" height="280" rx="26" fill="url(#card)" stroke="#ffffff" stroke-opacity="0.18"/>
+  <text x="96" y="136" font-family="Arial, Helvetica, sans-serif" font-size="46" font-weight="700" fill="#E0F2FE">100 Days of Machine Learning Code</text>
+  <text x="96" y="190" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#F8FAFC">A colorful, beginner-friendly roadmap to learn Machine Learning</text>
+  <text x="96" y="222" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#F8FAFC">with Python, data preprocessing, regression, classification,</text>
+  <text x="96" y="254" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#F8FAFC">clustering, evaluation, and portfolio-ready projects.</text>
+  <rect x="96" y="286" width="174" height="40" rx="20" fill="#ffffff"/>
+  <text x="126" y="312" font-family="Arial" font-size="18" font-weight="700" fill="#1D4ED8">Python + ML</text>
+  <rect x="286" y="286" width="160" height="40" rx="20" fill="#DBEAFE"/>
+  <text x="323" y="312" font-family="Arial" font-size="18" font-weight="700" fill="#1E3A8A">100-Day Plan</text>
+  <rect x="462" y="286" width="182" height="40" rx="20" fill="#CFFAFE"/>
+  <text x="496" y="312" font-family="Arial" font-size="18" font-weight="700" fill="#155E75">Projects + GitHub</text>
+  <rect x="814" y="78" width="378" height="264" rx="28" fill="#FFFFFF" fill-opacity="0.14" stroke="#FFFFFF" stroke-opacity="0.18"/>
+  <rect x="846" y="110" width="140" height="80" rx="18" fill="#DBEAFE"/><text x="876" y="158" font-family="Arial" font-size="26" font-weight="700" fill="#1D4ED8">Python</text>
+  <rect x="1012" y="110" width="146" height="80" rx="18" fill="#DCFCE7"/><text x="1039" y="158" font-family="Arial" font-size="24" font-weight="700" fill="#166534">Datasets</text>
+  <rect x="846" y="210" width="140" height="92" rx="18" fill="#FEE2E2"/><text x="866" y="255" font-family="Arial" font-size="22" font-weight="700" fill="#B91C1C">Regression</text>
+  <rect x="1012" y="210" width="146" height="92" rx="18" fill="#EDE9FE"/><text x="1032" y="255" font-family="Arial" font-size="22" font-weight="700" fill="#6D28D9">Classification</text>
+  <text x="850" y="328" font-family="Arial" font-size="18" fill="#F8FAFC">Roadmap • Practice • Projects • Portfolio</text>
+</svg>
